@@ -1,4 +1,5 @@
 import Header from './Header';
+import Button from './Button';
 
 
 function App()
@@ -6,7 +7,9 @@ function App()
   return (
     <div className="wrapper">
 
-      <Header/>
+      <Header />
+      <Button>123</Button>
+      <Button outline>Ryjgrf</Button>
 
       <div className="content">
         <div className="container">
