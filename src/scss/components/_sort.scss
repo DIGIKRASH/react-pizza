@@ -16,6 +16,12 @@ $duration: 0.15s;
 
     svg {
       margin-right: 8px;
+      transition: 0.3s;
+      transform: rotate(180deg);
+      &.rotate {
+        transform: rotate(0deg);
+        display: block;
+      }
     }
 
     b {
