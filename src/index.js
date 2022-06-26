@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './scss/app.scss';
 import { BrowserRouter as Router } from 'react-router-dom'
 
-import Header from './components/Header'
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
